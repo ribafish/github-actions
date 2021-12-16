@@ -145,7 +145,7 @@ runs:
         
     - name: Set success artefact path output
       shell: bash
-      run: echo "::set-output name=success-artefact-location:${{ inputs.success_artefact_location }}"
+      run: echo "::set-output name=success_artefact_location:${{ inputs.success_artefact_location }}"
 
     - name: Upload Artefact
       if: inputs.success_artefact_location != '' && inputs.success_artefact_name != ''
