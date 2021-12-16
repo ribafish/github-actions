@@ -92,7 +92,7 @@ inputs:
     default: 'true'
 
 outputs:
-  success-artefact-location:
+  success_artefact_location:
     description: 'Path to the success artefact location, if one is supplied in [inputs.success_artefact_location]'
 
 runs:
